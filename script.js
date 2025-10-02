@@ -20,6 +20,6 @@ form.addEventListener('submit', function(e) {
         horses.push(number);
       }
     }
-
+  horses.sort();
   document.getElementById('result').innerHTML = horses.join(", ");
 })
